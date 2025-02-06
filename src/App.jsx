@@ -1,7 +1,9 @@
 // src/App.jsx
 
 const App = () => {
-  return <h1>Hello world!</h1>;
+  return(
+    <main></main>
+  );
 };
 
 export default App;
