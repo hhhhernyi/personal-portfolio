@@ -1,8 +1,12 @@
 // src/App.jsx
 
+import NavBarMain from "./components/navbar/NavBarMain";
+
 const App = () => {
   return(
-    <main></main>
+    <main className="font-body">
+      <NavBarMain />
+    </main>
   );
 };
 
