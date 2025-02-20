@@ -5,6 +5,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaPython } from "react-icons/fa6";
+import { RiTailwindCssLine } from "react-icons/ri";
 import SingleSkill from "./SingleSkill";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -37,6 +38,10 @@ const skills = [
   {
     skill: "Python",
     icon: FaPython,
+  },
+  {
+    skill: "TailwindCSS",
+    icon: RiTailwindCssLine,
   }
 ];
 

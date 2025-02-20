@@ -31,7 +31,8 @@ export default function HeroText() {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4 text-white"
       >
-        One line brand statement here <br /> continued here
+        Front-end developer with full-stack expertise,<br/>
+         passionate about building engaging web applications
       </motion.p>
     </div>
   );

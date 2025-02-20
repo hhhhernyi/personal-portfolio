@@ -4,6 +4,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
+import { RiTailwindCssLine } from "react-icons/ri";
 import { FaPython } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -37,6 +38,10 @@ const skills = [
     skill: "Python",
     icon: FaPython,
   },
+  {
+    skill: "TailwindCSS",
+    icon: RiTailwindCssLine,
+  }
 ];
 
 const AllSkillsSM = () => {
