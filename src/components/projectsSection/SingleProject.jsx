@@ -2,7 +2,7 @@ import { BiSolidRightTopArrowCircle } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const SingleProject = ({ name, year, align, image, link }) => {
+const SingleProject = ({ name, year, align, image, link, desc, stack }) => {
   return (
     <motion.div
       variants={fadeIn("up", 0.2)}
@@ -22,13 +22,15 @@ const SingleProject = ({ name, year, align, image, link }) => {
         >
           {year}
         </h2>
-        <a
-          href={link}
+        <h2 className="text-base text-white">{desc}</h2>
+        <h2 className="text-sm text-orange">Tech stack: {stack}</h2>
+        <a href={link}
+           target="_blank"
           className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center ${
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
           }`}
         >
-          View <BiSolidRightTopArrowCircle />{" "}
+          View <BiSolidRightTopArrowCircle />
         </a>
       </div>
       <div className="mx-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 relative border border-white">

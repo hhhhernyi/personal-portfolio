@@ -5,32 +5,31 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
     {
-        name:'project1',
-        year:'year1',
+        name:'Insurance CRM',
+        year:'2025',
         align:'right',
-        image:'../../images/website-img-1.jpg',
-        link:'#'
+        image:'../../images/GA-project3.jpg',
+        link:'https://github.com/hhhhernyi/project-3-frontend',
+        desc:'Full stack project built with MERN stack with 2 other coursemates, focusing on web development in collaborative environment',
+        stack:'ReactJS, MaterialUI, Node.js, ExpressJS, MongoDB, Mongoose, Git and Github'
     },
     {
-        name:'project2',
-        year:'year2',
+        name:'Attack on Titan Database ',
+        year:'2025',
         align:'right',
-        image:'../../images/website-img-1.jpg',
-        link:'#'
+        image:'../../images/GA-project2.jpg',
+        link:'https://aot-database.netlify.app/',
+        desc:'Fully responsive react app using RESTful API, following best practices and mobile-first development',
+        stack:'React, React-Bootstrap, Git and Github'
     },
     {
-        name:'project3',
-        year:'year3',
+        name:'You want to be millionaire or not?',
+        year:'2024',
         align:'right',
-        image:'../../images/website-img-1.jpg',
-        link:'#'
-    },
-    {
-        name:'project4',
-        year:'year4',
-        align:'right',
-        image:'../../images/website-img-1.jpg',
-        link:'#'
+        image:'../../images/GA-project1.jpg',
+        link:'https://hhhhernyi.github.io/Project-1-Quiz/',
+        desc:'Browser based javascript game, focusing on DOM manipulation as an introduction to web development',
+        stack:'HTML, CSS, Javascript, Git and Github'
     }
 ]
 
@@ -47,7 +46,7 @@ const ProjectsMain = () => {
         
         <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
             {projects.map((item,index)=>(
-                <SingleProject key={index} name={item.name} year={item.year} align={item.align} image={item.image}/>
+                <SingleProject key={index} name={item.name} year={item.year} align={item.align} link={item.link} image={item.image} desc={item.desc} stack={item.stack}/>
             ))}
         </div>
     </div>
