@@ -5,7 +5,7 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p className="text-white">
-        Hi, I', Hern Yi, an aspiring frontend developer with a passion for
+        Hi, I'm Hern Yi, an aspiring frontend developer with a passion for
         creating engaging and stunning web pages. <br />
         In late 2024, i made the decision to follow my passion and enroll in
         General Assembly's Software Engineering Immersive bootcamp. With my
