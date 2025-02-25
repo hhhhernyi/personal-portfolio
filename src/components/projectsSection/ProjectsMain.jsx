@@ -9,8 +9,8 @@ const projects = [
         year:'2025',
         align:'right',
         image:'../../images/GA-project3.jpg',
-        link:'https://github.com/hhhhernyi/project-3-frontend',
-        desc:'Full stack project built with MERN stack with 2 other coursemates, focusing on web development in collaborative environment',
+        link:'https://insureconnect.netlify.app/',
+        desc:'Full stack project built with MERN stack with 2 other coursemates,  authentication done using JSON Web Tokens and focusing on web development in collaborative environment. ',
         stack:'ReactJS, MaterialUI, Node.js, ExpressJS, MongoDB, Mongoose, Git and Github'
     },
     {
