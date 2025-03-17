@@ -5,12 +5,21 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
     {
-        name:'Insurance CRM',
+        name:'Barber booking app',
         year:'2025',
         align:'right',
         image:'../../images/GA-project3.jpg',
+        link:'https://cut-style-perm.netlify.app/',
+        desc:'Full stack project built with MEVN stack, for local neighborhood barber to manage bookings and appointments. Responsive on both web and mobile.',
+        stack:'VueJS, TailwindCSS, Node.js, ExpressJS, MongoDB, Mongoose, Git and Github'
+    },
+    {
+        name:'Insurance CRM',
+        year:'2025',
+        align:'right',
+        image:'../../images/GA-project4.jpg',
         link:'https://insureconnect.netlify.app/',
-        desc:'Full stack project built with MERN stack with 2 other coursemates,  authentication done using JSON Web Tokens and focusing on web development in collaborative environment. ',
+        desc:'Full stack project built with MERN stack with 2 other coursemates, authentication done using JSON Web Tokens and focusing on web development in collaborative environment. ',
         stack:'ReactJS, MaterialUI, Node.js, ExpressJS, MongoDB, Mongoose, Git and Github'
     },
     {
